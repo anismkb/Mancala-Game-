@@ -12,6 +12,7 @@ pygame.init()
 screen_width = 1000
 screen_height = 700
 
+#screen of our game
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 def get_fosse_from_mouse(pos,game, joueur):
